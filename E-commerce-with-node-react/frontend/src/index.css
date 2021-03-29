@@ -1,0 +1,91 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  background-color: blue;
+  height: 80px;
+}
+.main {
+  overflow: hidden;
+  margin-left: 125px;
+}
+.logo {
+  float: left;
+}
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: cursive;
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 30px;
+}
+.right {
+  float: right;
+}
+.right ul li{
+  float: left;
+  list-style: none;
+  padding-left: 5px;
+  margin-right: 30px;
+  margin-top: 16px;
+}
+.right ul li a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.card-wrapper {
+  border: 2px solid gray;
+  width: 350px;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  float: left;
+}
+.card-header a {
+  text-decoration: none;
+}
+
+.card-body {
+  margin-left: 0px;
+  background-color: #ffd046;
+  padding: 10px;
+}
+.card-body p {
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+.fa, .fas {
+  font-weight: 900;
+  color: #ff5722;
+}
+.card-body a img {
+  height: 100px;
+  width: 100px;
+}
+
+.card-header a img {
+  height: 400px;
+  width: 350px;
+  margin-top: 35px;
+}
+.footer{
+  bottom: 0;
+  background-color: gray;
+  color: white;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  height: 60px;
+}
+.footer h2{
+  display: inline-block;
+  margin-top: 20px;
+}
